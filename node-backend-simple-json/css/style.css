@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+  height: 100%;
+  width: 50%;
+}
+
 h1{
-  color: red;
+  color: blue;
+}
+img{
+  object-fit: contain;
 }

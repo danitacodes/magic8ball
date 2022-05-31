@@ -3,17 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <div>
-      <img src="/node-backend-simple-json/img/magic8ball.png" alt="magic 8 ball">
-    </div>
-    
-    <h1>Magic 8 Ball</h1>
-    <input id="userName" type="text" name="" placeholder="What is your question?">
-    <button id="clickMe" type="button" name="button">Ask!!</button>
-    <h2 id="answer"></h2>
+    <main>
+      <div>
+        <h1>Magic 8 Ball</h1>
+        <input id="userName" type="text" name="" placeholder="What is your question?">
+        <button id="clickMe" type="button" name="button">Ask!!</button>
+        <h2 id="answer"></h2>
+      </div>
+
+      <div class="stage">
+        <figure class="ball animate__animated">
+          <span class="shadow"></span>
+          <span class="eight"></span>
+        </figure>
+      </div>
+
+    </main>
+
     <script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>
